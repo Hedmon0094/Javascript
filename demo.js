@@ -60,3 +60,10 @@ console.log(person.firstName);
 console.log(person["lastName"]);
 
 
+let timer = setInterval(function() {
+  if (/* condition to check if animation is complete */) {
+    clearInterval(timer);
+  } else {
+    // code to increase style.left by 2px
+  }
+}, 20); // change by 2px every 20ms, about 50 frames per second
